@@ -3,7 +3,7 @@ import ballerina/graphql.subgraph;
 import ballerina/uuid;
 
 @subgraph:Subgraph
-service on new graphql:Listener(4002) {
+service /review on new graphql:Listener(4002) {
     resource function get reviews(string productId) returns Review[]|error {
         lock {
             if (!products.hasKey(productId)) {

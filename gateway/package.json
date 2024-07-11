@@ -4,7 +4,7 @@
   "description": "The gateway the connects Ballerina GraphQL subgraphs",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file=.env index.js"
+    "start": "node index.js"
   },
   "author": "sabthar",
   "license": "ISC",

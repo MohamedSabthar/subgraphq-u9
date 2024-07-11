@@ -1,0 +1,16 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "The gateway the connects Ballerina GraphQL subgraphs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "author": "sabthar",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^2.4.1",
+    "@apollo/server": "^4.6.0",
+    "nodemon": "^3.1.4"
+  }
+}
